@@ -7,22 +7,17 @@
     "env": {
         "SCRAPYD_SERVER_1": {
             "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",
-            "value": "username:password@svr-1.herokuapp.com:80",
+            "value": "username:password@clark-01.herokuapp.com:80",
             "required": true
         },
         "SCRAPYD_SERVER_2": {
             "description": "See SCRAPYD_SERVER_1, type del to ignore the environment variable",
-            "value": "svr-2.herokuapp.com:80#label",
+            "value": "clark-02.herokuapp.com:80#label",
             "required": false
         },
         "SCRAPYD_SERVER_3": {
             "description": "See SCRAPYD_SERVER_1, type del to ignore the environment variable",
-            "value": "svr-3.herokuapp.com:80#group",
-            "required": false
-        },
-        "SCRAPYD_SERVER_4": {
-            "description": "See SCRAPYD_SERVER_1, type del to ignore the environment variable",
-            "value": "svr-4.herokuapp.com:80#group",
+            "value": "clark-03.herokuapp.com:80#group",
             "required": false
         },
         "ENABLE_AUTH": {
